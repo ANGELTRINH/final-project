@@ -1,8 +1,28 @@
 // Custom.scss
 // Option A: Include all of Bootstrap
 
+//Google fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap');
+
 // Include any default variable overrides here (though functions won't be available)
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
+
+// Include any default variable overrides here (colors, font sizes, font family, etc..)
+$navbar-light-color:#f2f2f2;
+$navbar-dark-color:#0000;
+$navbar-light-active-color:#489CFF;
+
+// Typography
+// Change font family for base text
+$base-font-family: 'Inter 200';
+
+// Change font family for headings
+$headings-font-family:'Inter 400';
+
+
+.navbar-brand{
+    font-family:'Inter 200';
+}
