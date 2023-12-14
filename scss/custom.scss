@@ -11,9 +11,9 @@
 // Then add additional custom code here
 
 // Include any default variable overrides here (colors, font sizes, font family, etc..)
-$navbar-light-color:#f2f2f2;
+$navbar-primary:#489CFF;
 $navbar-dark-color:#0000;
-$navbar-light-active-color:#489CFF;
+$navbar-light: #f2f2f2;
 
 // Typography
 // Change font family for base text
@@ -26,3 +26,15 @@ $headings-font-family:'Inter 400';
 .navbar-brand{
     font-family:'Inter 200';
 }
+
+#hero {
+    background-image: url(../images/Manicure.webp);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  #hero .d-flex{
+    height: 100vh;
+  }
+
